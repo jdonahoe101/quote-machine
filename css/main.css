@@ -6,6 +6,82 @@
   vertical-align: baseline;
 }
 
+	body{
+   padding: 0px;
+   margin: 0px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+ }
+
+
+#gradient
+{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+[tabindex="-1"]:focus {
+    outline: 0 !important;
+}
+
+/* ANIMATIONS */
+
+@keyframes scrolling-rainbow {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.share-plugin {
+    position: fixed;
+    height: auto;
+    width: 50px;
+    background-color: transparent;
+    left: 0;
+    top: 85px;
+}
+.share-plugin ul {
+    list-style-type: none;
+    padding: 0 100px 100px 0;
+    margin: 0 50px 50px 0;
+}
+.share-plugin ul li > a {
+    display: block;
+    text-align: -webkit-center;
+    padding: 13px;
+    transition: color 170ms ease-in;
+  color: #FFF;
+}
+
+.facebook-sharrre-nav:hover,
+.facebook-sharrre-nav:focus {
+ color: #3b5bdb;
+}
+
+.linkedin-sharrre-nav:hover,
+.linkedin-sharrre-nav:focus {
+  color: #22A7F0;
+}
+.instagram-sharrre-nav:hover,
+.instagram-sharrre-nav:focus{
+  color: #663399;
+}
+.github-sharrre-nav:hover,
+.github-sharrre-nav:focus{
+  color: #000;
+}
 div {
   position:relative;
   z-index: 2;

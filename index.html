@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html>
 <head>
   <meta charset="UTF-8">
@@ -6,8 +8,37 @@
   <title>Quote Machine</title>
   <link rel="stylesheet" href="maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <script>
+    const projectName = "random-quote-machine";
+    localStorage.setItem('example_project', 'Random Quote Machine');
+
+  </script>
 </head>
-<body>
+<body id="gradient">
+      <div class="share-plugin">
+		<ul>
+			<li>
+				<a class="facebook-sharrre-nav" href="https://www.facebook.com/jdonahoe101" target="_blank">
+					<i class="fab fa-facebook-f fa-2x"></i>
+				</a>
+			</li>
+			<li>
+				<a class="linkedin-sharrre-nav" href="https://www.linkedin.com/jdonahoe101"  target="_blank">
+          <i class="fab fa-linkedin-in fa-2x"></i>
+				</a>
+			</li>
+			<li>
+				<a class="instagram-sharrre-nav" href="https://www.instagram.com/jdonahoe101" target="_blank">
+					<i class="fab fa-instagram fa-2x"></i>
+				</a>
+			</li>
+			<li>
+				<a class="github-sharrre-nav" href="https://github.com/jdonahoe101" target="_blank">
+					<i class="fab fa-github fa-2x"></i>
+				</a>
+			</li>
+		</ul>
+  </div>
   <div id="wrapper">
     <div id="quote-box">
       <div class="quote-text">
@@ -26,12 +57,14 @@
         <button class="button" id="new-quote">New quote</button>
       </div>
     </div>
-    <div class="footer"> by <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1304140/logo-pastel.png"></a></div>
+    <div class="footer">
+       by <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1304140/logo-pastel.png"></a>
+     </div>
   </div>
-  <script type="text/javascript" src="js/main.js"> </script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"> </script>
 <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript"  src=" https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
-<script type="text/javascript"  src=" https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
-
+<script type="text/javascript"  src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script type="text/javascript" src="js/main.js"> </script>
 </body>
 </html>
